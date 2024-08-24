@@ -1018,7 +1018,7 @@ onInput("j", () => handleIjklInput("j"))
 onInput("l", () => handleIjklInput("l"))
 onInput("k", () => handleIjklInput("k"))
 
-startLevel(3)
+startLevel(0)
 
 function handleWasdInput(key) {
   const earlyReturn = handleGlobalInput()
